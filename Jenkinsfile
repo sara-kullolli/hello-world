@@ -18,7 +18,7 @@ pipeline {
         }
         stage('Deliver') {
             steps {
-                sh 'java -jar /var/lib/jenkins/workspace/hello-world/target/hello-world-1.0.0.jar'
+                sh 'java -jar /var/lib/jenkins/workspace/diploma project/target/hello-world-1.0.0.jar'
             }
         }
     }
